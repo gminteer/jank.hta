@@ -1,0 +1,6 @@
+export default {
+  bracketSpacing: false,
+  semi: true,
+  singleQuote: true,
+  trailingComma: 'es5',
+};

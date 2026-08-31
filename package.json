@@ -1,0 +1,48 @@
+{
+  "name": "jank.hta",
+  "version": "0.0.0",
+  "description": "a bad idea",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.html",
+  "chromium-args": "--mixed-context",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nw ."
+  },
+  "devDependencies": {
+    "@eslint/compat": "^2.1.0",
+    "@eslint/eslintrc": "^3.3.6",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.9.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-compat": "^7.0.2",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-perfectionist": "^5.10.1",
+    "eslint-plugin-prettier": "^5.5.6",
+    "eslint-plugin-promise": "^7.3.0",
+    "eslint-plugin-security": "^4.0.1",
+    "eslint-plugin-unicorn": "^74.0.0",
+    "prettier": "^3.9.6",
+    "prettier-eslint": "^17.1.2"
+  },
+  "allowScripts": {
+    "nw@0.115.0-sdk": true,
+    "node-pty@1.1.0": true,
+    "unrs-resolver@1.12.2": true
+  },
+  "dependencies": {
+    "@xterm/xterm": "^6.0.0",
+    "htm": "^3.1.1",
+    "js-yaml": "^5.4.1",
+    "node-pty": "^1.1.0",
+    "nw": "^0.115.0-sdk",
+    "preact": "^10.29.8",
+    "zx": "^8.8.5"
+  }
+}
